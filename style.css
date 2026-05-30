@@ -260,3 +260,13 @@ hr {
   border-color: rgba(215,199,255,1);
   box-shadow: 0 0 25px rgba(183,156,237,0.35);
 }
+
+
+.tags span {
+  display: inline-block;
+  padding: 7px 14px;
+  background: #EDE4FF;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 12px;
+}
