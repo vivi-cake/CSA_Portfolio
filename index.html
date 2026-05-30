@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tanvi | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Fraunces:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/>
+
+<style>
+  body { opacity: 0; }
+</style>
+</head>
+
+<body>
+
+<div class="bg-blobs"></div>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="#about">About</a>
+  <a href="#resume">Resume</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT (expanded + more narrative depth) -->
+<section id="about" class="section glass split">
+  
+  <div class="pfp">
+  <img src="IMG_7420.jpg" />
+</div>
+
+  <div class="right">
+    <h2>About Me</h2>
+
+    <p>
+      I’m a high school student deeply interested in computer science, artificial intelligence, and the ways technology can be used to understand and improve human decision-making.
+    </p>
+
+    <hr />
+
+    <p>
+      My focus has been on building projects that combine machine learning, data-driven thinking, and real-world applications — especially in education and healthcare contexts.
+    </p>
+
+    <hr />
+
+    <p>
+      Outside of coding, I’m the President of my Girls Who Code club, where I help lead workshops in Python, web development, and introductory data science. I also participate in Science Olympiad and independently explore AI research topics through personal projects and structured programs.
+    </p>
+
+    <hr />
+
+    <p>
+      I’m especially interested in how neural networks can be applied to medical imaging and how AI systems can assist in early detection and decision support.
+    </p>
+
+    <div class="tags">
+      <span>Machine Learning</span>
+      <span>Deep Learning</span>
+      <span>Python</span>
+      <span>Research</span>
+      <span>Leadership</span>
+      <span>Data Science</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESUME (more descriptive, less list-like) -->
+<section id="resume" class="section glass">
+  <h2>Resume</h2>
+
+  <div class="resume-grid">
+
+    <div class="resume-card">
+      <h3>Education</h3>
+      <hr />
+      <p>
+        High School Student with a strong academic focus in mathematics, computer science, and scientific research.
+        Maintains a 4.0 unweighted GPA and 4.21 weighted GPA while taking advanced STEM coursework.
+      </p>
+    </div>
+
+    <div class="resume-card">
+        <h3>Leadership</h3>
+        <hr />
+
+      <p>
+        President of Girls Who Code Club, where I design and lead technical workshops, mentor members in coding fundamentals,
+        and help organize collaborative coding projects and events to increase student engagement in STEM.
+      </p>
+    </div>
+
+    <div class="resume-card">
+      <h3>Experience</h3>
+      <hr />
+      <p>
+        Built multiple independent AI-driven systems, including a study optimization tool using machine learning principles
+        and a structured scheduling system designed to improve student productivity and time management.
+      </p>
+    </div>
+
+    <div class="resume-card">
+      <h3>Activities</h3>
+      <hr />
+      <p>
+        Active participant in Science Olympiad focusing on analytical and applied science events. Engaged in USACO preparation,
+        independent AI research through Polygence, and collaborative STEM learning environments.
+      </p>
+    </div>
+
+    <div class="resume-card">
+      <hr />
+      <h3>Volunteer Work</h3>
+             <hr />
+      <p>
+        Volunteer at the American Cancer Society’s Discovery Shop, contributing to community support efforts and fundraising
+        initiatives that support cancer research and patient assistance programs.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS (more realistic case-study style writing) -->
+<section id="projects" class="section glass">
+  <h2>Projects</h2>
+
+  <div class="projects-layout">
+
+    <div class="project-feature">
+      <h3>SmartSchedule AI</h3>
+      <p class="meta">AI Scheduling & Productivity System</p>
+
+      <p>
+        Designed and developed an AI-based scheduling system aimed at optimizing student productivity.
+        The system analyzes time allocation patterns and prioritizes tasks based on urgency and workload distribution.
+      </p>
+
+      <hr />
+
+      <p>
+        This project explored how machine learning concepts can be applied to behavioral data to improve daily planning efficiency.
+      </p>
+
+      <hr />
+
+      <p class="skills">
+        Python • Machine Learning • Data Analysis • UX Design
+      </p>
+    </div>
+
+    <div class="project-feature">
+      <h3>CNN Tumor Classification Model</h3>
+      <p class="meta">Deep Learning / Medical Imaging</p>
+
+      <p>
+        Built a Convolutional Neural Network to classify benign versus cancerous heart tumor images using medical imaging datasets.
+      </p>
+
+      <hr />
+
+      <p>
+        The model focuses on feature extraction from grayscale imaging data and applies layered convolutional filters to identify structural patterns relevant to tumor classification.
+      </p>
+
+      <hr />
+
+      <p>
+        This project strengthened my understanding of deep learning architectures and their real-world applications in healthcare diagnostics.
+      </p>
+
+    <hr />
+
+      <p class="skills">
+        Python • CNN • Deep Learning • Computer Vision • Data Science
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section glass">
+  <h2>Contact</h2>
+
+  <p>
+    I’m always interested in connecting with others in AI, research, and software development.
+    Feel free to reach out if you want to collaborate or talk about projects.
+  </p>
+
+  <p> </p>
+
+  <form>
+    <input type="text" placeholder="Name" required />
+    <input type="email" placeholder="Email" required />
+    <textarea placeholder="Message"></textarea>
+    <button class="btn">Send</button>
+  </form>
+
+  <p class="social">GitHub • LinkedIn • Email</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
